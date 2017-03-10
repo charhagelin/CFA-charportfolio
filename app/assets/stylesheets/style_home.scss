@@ -1,0 +1,194 @@
+.nav-wrapper {
+  position: fixed;
+  // z-index: 10;
+  // color: red;
+
+}
+.navbar-default {
+  background-color: red;
+  // position: fixed;
+}
+
+
+.navbar-nav {
+  // display: inline-block;
+  // float: none;
+  // position: fixed;
+
+}
+
+.navbar-center {
+  text-align: center;
+}
+
+.navbar {
+ // background: transparent;
+ // border-color: transparent;
+ // // position: fixed;
+}
+
+.section_nav h1 {
+  text-align: center;
+  padding-top: 100px;
+    // padding-bottom: 50px;
+  font-family: 'Amatica SC', cursive;
+}
+
+
+ #logo {
+    background: url("images/logo.jpg")no-repeat center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 800px;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+//  #triangle {
+//   background: url("images/delad_triangel.jpg")no-repeat center;
+//   height: 100%;
+//   width: 100%;
+//   padding-top: 800px;
+//   min-width: 100%;
+//   min-height: 100%;
+// }
+.section_about h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Amatica SC', cursive;
+
+}
+
+
+.section_about p {
+  padding-bottom: 100px;
+  line-height: 280%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.item {
+  text-align: center;
+  width: auto;
+  height: 500px;
+}
+#carousel-example-generic {
+  margin-bottom: 50px;
+}
+// .snippits {
+//   background: url("images/snippit_work.jpg") no-repeat center;
+//   height: 100%;
+//   width: 100%;
+//   padding-top: 600px;
+// }
+// #######
+
+#poly-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.projects {width: 200px; height: 200px; background-color: blue;
+  display: inline-block;
+  margin: -22px 3px;
+
+  // background-image: url(images/code1.jpg);
+  -webkit-clip-path: polygon(
+    50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+  ); }
+  .projectsT {width: 200px; height: 200px; background-color: grey;
+    display: inline-block;
+    margin: -22px 0px;;
+    margin-left: 3%;
+    background-image: url(images/zengarden.jpg);
+    -webkit-clip-path: polygon(
+      50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+    );
+  // clip-path: url('#c1');
+}
+div.projects {background-color: grey;}
+div.projects:nth-child(2) {background-color: grey;background-image: url(images/code1.jpg)}
+div.projects:nth-child(3) {background-color: grey; }
+div.projects:nth-child(4) {background-color: purple; background-image: url(images/grav.jpg);}
+div.projects:nth-child(5n) {background-color: purple; background-image: url(images/code3.jpg);}
+// div.projects:nth-of-type(6n) {background-color: grey;}
+div.projects:nth-child(6) {background-color: orange; background-image: url(images/monitor.jpg);}
+// div.projects:nth-child(7) {background-color: pink; background-image: url(images/zengarden.jpg);}
+div.projects:nth-child(8) {background-color: grey; }
+div.projects:nth-child(9) {background-color: yellow; background-image: url(images/code2.jpg);}
+div.projects:nth-child(10) {background-color: grey;background-image: url(images/shebeen.jpg);}
+div.projects:nth-child(11) {background-color: grey;}
+div.projects:nth-child(12) {background-color: grey; background-image: url(images/code2.jpg);}
+// div.projects:nth-of-type(13n) {background-color: grey; }
+
+
+
+div.projects:nth-of-type(6n) ~ div {
+-webkit-transform:  translateX(62.5px);
+transform:  translateX(62.5px);
+
+}
+
+
+section {width:1400px;}
+
+
+// ##########
+.section_projects {
+  background: url("images/timmglas.jpg") no-repeat center;
+  height: 100%;
+  width: 100%;
+  padding-top: 900px;
+  // margin-top: -100px;
+  padding-bottom: 10px;
+}
+.skills {
+  background: url("images/skill_level.png") no-repeat center;
+  padding-top: 500px;
+}
+
+
+#github {
+  margin-top: -280%;
+  margin-left: 15%;
+}
+#linkedin {
+  margin-top: -250%;
+  margin-left: 38%;
+
+}
+#behance {
+  margin-top: -219%;
+  margin-left: 60%;
+
+}
+
+#text p {
+
+  font-family: 'Amatica SC', cursive;
+  font-size: 24px;
+  text-align: center;
+  margin-top: -500px;
+  padding-bottom: 300px;
+  font-size: 40px;
+}
+
+.contact h1 {
+  font-family: 'Amatica SC', cursive;
+}
+
+.contact p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+}
