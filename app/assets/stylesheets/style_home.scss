@@ -1,42 +1,62 @@
-.nav-wrapper {
+/* apply a natural box layout model to all elements */
+
+
+.inner {
+  width: 800px;
+  position: relative;
+  margin: 0 auto;
+}
+
+header {
   position: fixed;
-  // z-index: 10;
-  // color: red;
-
-}
-.navbar-default {
-  background-color: red;
-  // position: fixed;
+  width: 100%;
+  padding-top: 20px;
+  background: #C9C8C5;
+  transition: 0.7s all;
+  z-index: 100;
 }
 
 
-.navbar-nav {
-  // display: inline-block;
-  // float: none;
-  // position: fixed;
-
+body.header-fixed header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
-.navbar-center {
-  text-align: center;
+li {
+  list-style: none;
 }
 
-.navbar {
- // background: transparent;
- // border-color: transparent;
- // // position: fixed;
+
+nav ul {
+  float: right;
 }
 
-.section_nav h1 {
-  text-align: center;
-  padding-top: 100px;
-    // padding-bottom: 50px;
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 25px;
+  transition: 0.3s all;
   font-family: 'Amatica SC', cursive;
 }
 
+section .inner {
+  padding-top: 200px;
+}
+
+
 
  #logo {
-    background: url("images/logo.jpg")no-repeat center;
+    background: url("images/logo_hello.png")no-repeat center;
     height: 100%;
     width: 100%;
     padding-bottom: 800px;
@@ -53,13 +73,17 @@
 //   min-width: 100%;
 //   min-height: 100%;
 // }
-.section_about h1 {
+#section_about h1 {
   padding-top: 100px;
   text-align: center;
   font-family: 'Amatica SC', cursive;
 
 }
-
+.section_about h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Amatica SC', cursive;
+}
 
 .section_about p {
   padding-bottom: 100px;
@@ -94,7 +118,8 @@
   padding-bottom: 3%;
 }
 
-.projects {width: 200px; height: 200px; background-color: blue;
+
+#poly-container a{width: 200px; height: 200px; background-color: blue;
   display: inline-block;
   margin: -22px 3px;
 
@@ -112,24 +137,25 @@
     );
   // clip-path: url('#c1');
 }
-div.projects {background-color: grey;}
-div.projects:nth-child(2) {background-color: grey;background-image: url(images/code1.jpg)}
-div.projects:nth-child(3) {background-color: grey; }
-div.projects:nth-child(4) {background-color: purple; background-image: url(images/grav.jpg);}
-div.projects:nth-child(5n) {background-color: purple; background-image: url(images/code3.jpg);}
-// div.projects:nth-of-type(6n) {background-color: grey;}
-div.projects:nth-child(6) {background-color: orange; background-image: url(images/monitor.jpg);}
-// div.projects:nth-child(7) {background-color: pink; background-image: url(images/zengarden.jpg);}
-div.projects:nth-child(8) {background-color: grey; }
-div.projects:nth-child(9) {background-color: yellow; background-image: url(images/code2.jpg);}
-div.projects:nth-child(10) {background-color: grey;background-image: url(images/shebeen.jpg);}
-div.projects:nth-child(11) {background-color: grey;}
-div.projects:nth-child(12) {background-color: grey; background-image: url(images/code2.jpg);}
+
+#poly-container a {background-color: grey;}
+#poly-container a:nth-child(2) {background-color: grey;background-image: url(images/code1.jpg)}
+#poly-container a:nth-child(3) {background-color: grey; }
+#poly-container a:nth-child(4) {background-color: purple; background-image: url(images/grav.jpg);}
+#poly-container a:nth-child(5) {background-color: purple; background-image: url(images/code3.jpg);}
+// a:nth-of-type(6n) {background-color: grey;}
+#poly-container a:nth-child(6) {background-color: orange; background-image: url(images/monitor.jpg);}
+#poly-container a:nth-child(7) {background-color: orange; background-image: url(images/monitor.jpg); margin-left: 7.5%;}
+#poly-container a:nth-child(8) {background-color: grey; }
+#poly-container a:nth-child(9) {background-color: yellow; background-image: url(images/code2.jpg);}
+#poly-container a:nth-child(10) {background-color: grey;background-image: url(images/shebeen.jpg);}
+#poly-container a:nth-child(11) {background-color: grey;}
+#poly-container a:nth-child(12) {background-color: grey; background-image: url(images/code2.jpg);}
 // div.projects:nth-of-type(13n) {background-color: grey; }
 
 
 
-div.projects:nth-of-type(6n) ~ div {
+#poly-container a:nth-of-type(6n) ~ div {
 -webkit-transform:  translateX(62.5px);
 transform:  translateX(62.5px);
 
