@@ -56,7 +56,7 @@ section .inner {
 
 
  #logo {
-    background: url("images/logo_hello.png")no-repeat center;
+    background: url("http://res.cloudinary.com/charhagelin/image/upload/v1489293707/logo_hello_sl7e41.png")no-repeat center;
     height: 100%;
     width: 100%;
     padding-bottom: 800px;
@@ -131,7 +131,7 @@ section .inner {
     display: inline-block;
     margin: -22px 0px;;
     margin-left: 3%;
-    background-image: url(images/zengarden.jpg);
+    background-image: url("http://res.cloudinary.com/charhagelin/image/upload/v1489293779/zengarden_wkoedz.jpg");
     -webkit-clip-path: polygon(
       50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
     );
@@ -139,18 +139,18 @@ section .inner {
 }
 
 #poly-container a {background-color: grey;}
-#poly-container a:nth-child(2) {background-color: grey;background-image: url(images/code1.jpg)}
+#poly-container a:nth-child(2) {background-color: grey;background-image: url("http://res.cloudinary.com/charhagelin/image/upload/v1489293683/code1_jizmca.jpg")}
 #poly-container a:nth-child(3) {background-color: grey; }
-#poly-container a:nth-child(4) {background-color: purple; background-image: url(images/grav.jpg);}
-#poly-container a:nth-child(5) {background-color: purple; background-image: url(images/code3.jpg);}
+#poly-container a:nth-child(4) {background-color: purple; background-image: url("http://res.cloudinary.com/charhagelin/image/upload/v1489293701/grav_hcuz6j.jpg");}
+#poly-container a:nth-child(5) {background-color: purple; background-image: url("http://res.cloudinary.com/charhagelin/image/upload/v1489293684/code3_rd3sli.jpg");}
 // a:nth-of-type(6n) {background-color: grey;}
-#poly-container a:nth-child(6) {background-color: orange; background-image: url(images/monitor.jpg);}
-#poly-container a:nth-child(7) {background-color: orange; background-image: url(images/monitor.jpg); margin-left: 7.5%;}
+#poly-container a:nth-child(6) {background-color: orange; background-image: url("http://res.cloudinary.com/charhagelin/image/upload/v1489293710/monitor_crluyr.jpg");}
+#poly-container a:nth-child(7) {background-color: orange; background-image: url("http://res.cloudinary.com/charhagelin/image/upload/v1489293710/monitor_crluyr.jpg"); margin-left: 7.5%;}
 #poly-container a:nth-child(8) {background-color: grey; }
-#poly-container a:nth-child(9) {background-color: yellow; background-image: url(images/code2.jpg);}
+#poly-container a:nth-child(9) {background-color: yellow; background-image: url("http://res.cloudinary.com/charhagelin/image/upload/v1489293683/code2_um6zmf.jpg");}
 #poly-container a:nth-child(10) {background-color: grey;background-image: url(images/shebeen.jpg);}
 #poly-container a:nth-child(11) {background-color: grey;}
-#poly-container a:nth-child(12) {background-color: grey; background-image: url(images/code2.jpg);}
+#poly-container a:nth-child(12) {background-color: grey; background-image: url("http://res.cloudinary.com/charhagelin/image/upload/v1489293683/code2_um6zmf.jpg");}
 // div.projects:nth-of-type(13n) {background-color: grey; }
 
 
@@ -167,7 +167,7 @@ section {width:1400px;}
 
 // ##########
 .section_projects {
-  background: url("images/timmglas.jpg") no-repeat center;
+  background: url("http://res.cloudinary.com/charhagelin/image/upload/v1489293761/timmglas_idrwsb.jpg") no-repeat center;
   height: 100%;
   width: 100%;
   padding-top: 900px;
@@ -175,7 +175,7 @@ section {width:1400px;}
   padding-bottom: 10px;
 }
 .skills {
-  background: url("images/skill_level.png") no-repeat center;
+  background: url("http://res.cloudinary.com/charhagelin/image/upload/v1489293753/skill_level_qvhrjd.png") no-repeat center;
   padding-top: 500px;
 }
 
