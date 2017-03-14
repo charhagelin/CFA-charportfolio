@@ -1,24 +1,21 @@
-# README
+###### So this is it, my very first website I've ever designed and coded.  
+###### I hope that it will reflect me as a graphic designer and web developer. Changes will be made as I grow as a web developer. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### The first major challenge at CFA was to create our own portfolio.
 
-Things you may want to cover:
+requirments: 
+-- A thoughtfully written bio.
+-- Portfolio section for your projects.
+-- A way to contact you.
+-- Attitude/Quirkiness
+-- Hiroku Deployment.
 
-* Ruby version
+I started out by making a moodbord by selecting website designs that I really liked by other designers/ developers to get a clear view of what style I was drawn to. I then continued by drawing out a design in Illustrator.
 
-* System dependencies
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+I eneded up making a few changes from my original design as I went.  
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
