@@ -12,10 +12,12 @@ requirments:
 
 I started out by making a moodbord by selecting website designs that I really liked by other designers/ developers to get a clear view of what style I was drawn to. I then continued by drawing out a design in Illustrator.
 
-
+![](https://cloud.githubusercontent.com/assets/25731381/23884443/cfde9014-08c0-11e7-82a1-e934b1671089.png)
 
 
 I eneded up making a few changes from my original design as I went.  
+
+
 
 
 
